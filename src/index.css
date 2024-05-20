@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face{
+    font-family: "SoDoSans";
+    src: url("/public/Fonts/SoDoSans-Regular.ttf");
+}
+body {
+    font-family: "SoDoSans", sans-serif;
+}
+
+.image_w {
+    width: 100% !important;
+    margin: auto;
+}
+.fd-c {
+    flex-direction: column;
+}
+.cards_w {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .fd-c {
+        flex-direction: row;
+    }
+    .cards_w {
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width: 1024px) {
+    .sourch_fixed{
+        position: fixed;
+    }
+    .max-w-7xll{max-width: 1400px ;}
+    .centers{
+        display: flex;
+        align-items: center;
+        height: 500px;
+        margin-left: 20px !important;
+    }
+    .image_w {
+        width: 60%;
+        margin-top: 50px;
+    }
+    .head_pad{padding-top: 80px;}
+    .main_flex{
+        display: flex;
+    }
+    .left_side{width: 40%;position: fixed;}
+    .right_side{width: 60%;margin-left: 40%;}
+    .fix_img{width: 100%; height: 100vh;}
+    .fix_navbar{width: 100%;background-color: #fff;position: fixed;z-index: 2;}
+}
