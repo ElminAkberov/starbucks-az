@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         { path: "/menu/:cat/:subcat", element: <SubMenu />, }]
     },
     {
-        path: "/products/:seoId",
+        path: "/products/:info/:type/:seoId",
         element: <Details />
     },
     {

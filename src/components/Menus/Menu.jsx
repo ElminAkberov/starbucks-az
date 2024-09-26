@@ -8,7 +8,7 @@ function Menu() {
 
   useEffect(() => {
     function fetchData() {
-      fetch('https://starbucks-api-mocha.vercel.app').then(res => res.json()).then(res => setData(res))
+      fetch('http://api.mirafgan.az/starbucks').then(res => res.json()).then(res => setData(res))
     }
     fetchData()
   }, [])

@@ -58,8 +58,8 @@ function Footer() {
       <div className="font-bold">
         <h4 className='py-9'>Qida dəyəri siyahısı</h4>
         <div className="flex items-center">
-          <NavLink to={"https://www.facebook.com/starbucksaz"}><FaFacebook size={32} /></NavLink>
-          <NavLink to={"https://www.instagram.com/starbucks__az/"}><FaInstagramSquare className='rounded-full' size={35} /></NavLink>
+          <NavLink target='_blank' to={"https://www.facebook.com/starbucksaz"}><FaFacebook size={32} /></NavLink>
+          <NavLink target='_blank' to={"https://www.instagram.com/starbucks__az/"}><FaInstagramSquare className='rounded-full' size={35} /></NavLink>
           
           
         </div>

@@ -17,13 +17,13 @@ function Sourch() {
                     <div className="flex gap-10 mx-5">
                         <div className="">
                             <h4 className='font-bold text-[17px] py-3'>Məsuliyyətli İstehsal</h4>
-                            <img src="../public/assets/img/img1.jpg" className='w-full' alt="" />
+                            <img src="/assets/img/img1.jpg" className='w-full' alt="" />
                             <p className='text-[14px] py-4'>Biz kofe yetişdirilən bölgələri iqlim dəyişikliyinə qarşı qorumaq və kofe fermerlərinin həyat keyfiyyətini yaxşılaşdırmaq üçün Conservation International* ilə işləyirik. </p>
                             <b className='text-[14px]'>* Conservation International ətraf mühitin mühafizəsi uğrunda mübarizə aparan dünyada ən fəal qeyri-hökumət təşkilatlarından biridir.</b>
                         </div>
                         <div className="">
                             <h4 className='font-bold text-[17px] py-3'>Fermer Dəstəyi</h4>
-                            <img src="../public/assets/img/img2.jpg" className='w-full' alt="" />
+                            <img src="/assets/img/img2.jpg" className='w-full' alt="" />
                             <p className='text-[14px] py-4'>Biz kofe yetişdirilən bölgələri iqlim dəyişikliyinə qarşı qorumaq və kofe fermerlərinin həyat keyfiyyətini yaxşılaşdırmaq üçün Conservation International* ilə işləyirik. </p>
                         </div>
                     </div>

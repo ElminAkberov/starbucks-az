@@ -19,7 +19,7 @@ function Sourch() {
                         <a href="mailto:" style={{ textDecoration: "underline rgb(0, 99, 65)", "color": "green", "cursor": "pointer" }}> infostarbucks-az@alshaya.com</a>elektron ünvanı vasitəsilə əlaqə saxlaya bilər.
                         </p>
                         <div className="flex justify-center">
-                            <img src="../public/assets/img/contact.jpg" className='rounded-md' alt="" />
+                            <img src="../assets/img/contact.jpg" className='rounded-md' alt="" />
                         </div>
                     </div>
                 </div>

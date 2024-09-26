@@ -6,19 +6,21 @@ function SubMenu() {
     
     useEffect(() => {
         function fetchData() {
-            fetch('https://starbucks-api-mocha.vercel.app').then(res => res.json()).then(res => setData(res))
+            fetch('http://api.mirafgan.az/starbucks').then(res => res.json()).then(res => setData(res))
         }
         fetchData()
     }, [])
     let para = useParams()
     let ickiler = data.find(item => item.slugName == para.cat)
     let subickiler = ickiler?.children.find(item => item.slugName == para.subcat)
+    // console.log(subickiler.slugName)
     return (
+    
         <div>
             {subickiler?.products.length > 0 ? (
                 <div className='grid grid-cols-4 gap-2 max-xl:grid-cols-2  max-md:grid-cols-2'>
                     {subickiler.products.map(item => (
-                        <NavLink to={`/products/${item.seoId}`} className="flex flex-col items-center">
+                        <NavLink to={`/products/${ickiler.slugName}/${subickiler.slugName}/${item.seoId}`} className="flex flex-col items-center">
                             {item.images.map(img => (
                                 <img className='w-[148px] h-[148px] rounded-full' src={img.url} />
                             ))}
@@ -33,7 +35,7 @@ function SubMenu() {
                         <h2 className='font-bold text-[24px]'>{item.name}</h2>
                         <div className="grid grid-cols-4 gap-2 max-xl:grid-cols-2 max-md:grid-cols-2 ">
                         {item.products.map(subitem => (
-                            <NavLink to={`/products/${subitem.seoId}`}>
+                            <NavLink to={`/products/${ickiler.slugName}/${subickiler.slugName}/${subitem.seoId}`}>
                                 <div className='flex flex-col items-center'>
                                     {subitem.images.map(img => (
                                         <img className='w-[148px] h-[148px] rounded-full' src={img.url} />

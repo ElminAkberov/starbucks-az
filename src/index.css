@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face{
     font-family: "SoDoSans";
-    src: url("/public/Fonts/SoDoSans-Regular.ttf");
+    src: url("/Fonts/SoDoSans-Regular.ttf");
 }
 body {
     font-family: "SoDoSans", sans-serif;

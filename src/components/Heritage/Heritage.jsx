@@ -13,7 +13,7 @@ function Sourch() {
         </div>
         <div  className='bg-[#F7F7F7] p-[40px] py-[20px] h-[auto] lg:w-[952px]'>
           <div className="flex justify-center">
-            <img src="../public/assets/img/history.jpg" alt="" />
+            <img src="../assets/img/history.jpg" alt="" />
           </div>
           <p className='p-[40px]'>
             Hər gün iki şeyin xəyalı ilə işə gedirik: dostlarımızla mükəmməl kofeni bölüşmək və dünyanı bir az da yaxşılaşdırmağa töhfə vermək. Bu, ilk Starbucks 1971-ci ildə açılanda başlamışdı və bu gün də aktualdır. <br />

@@ -8,19 +8,19 @@ function Main() {
                 <div className="bg-[#203A30] left_side ">
                     <div className='max-w-7xl mx-auto px-4 top'>
                         <div className="fix_img">
-                            <img className="flex image_w" src="/public/assets/img/starbuck.svg" alt="" />
+                            <img className="flex image_w" src="/assets/img/starbuck.svg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className='bg-[#f7f7f7] right_side'>
-                    <img className='lg:mt-20' src="/public/assets/img/1.jpg"/>
+                    <img className='lg:mt-20' src="/assets/img/1.jpg"/>
                     <div className="p-10">
                         <h2 className='font-bold pb-3'>Kofemiz</h2>
                         <p>1971-ci ildən bu günə qədər keyfiyyət əsas prioritetimizdir. Ən yaxşı ”Arabica" kofe dənələrini xüsusi diqqətlə seçir, qruplaşdırır və qayğı ilə qovururuq. Kofeyə duyduğumuz istək yalnız onu sevgi ilə bölüşməyimizlə ölçülə bilər.</p>
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card1.jpg" alt="" />
+                            <img src="/assets/img/card1.jpg" alt="" />
                         </div>
                         <div className="cards_w">
                             <h3 className='font-bold text-2xl'>STARBUCKS®’A YAY GƏLDİİİ! ☀️​</h3>
@@ -30,7 +30,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card2.jpg" alt="" />
+                            <img src="/assets/img/card2.jpg" alt="" />
                         </div>
                         <div className="cards_w">
                             <h3 className='font-bold text-2xl'>Starbucks®-da Sevimli 10 İçkini Al, Növbəti Bizdən Olsun!​</h3>
@@ -41,7 +41,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card3.jpg" alt="" />
+                            <img src="/assets/img/card3.jpg" alt="" />
                         </div>
                         <div className="cards_w">
                             <h3 className='font-bold text-2xl'>Starbucks®-dan açıqlamalar​</h3>
@@ -53,7 +53,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card4.jpg" alt="" />
+                            <img src="/assets/img/card4.jpg" alt="" />
                         </div>
                         <div className="cards_w">
                             <h3 className='font-bold text-2xl'>Starbucks® Yaxın Şərq haqqında məlumat​</h3>
@@ -64,7 +64,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card5.jpg" alt="" />
+                            <img src="/assets/img/card5.jpg" alt="" />
                         </div>
 
                         <div className="cards_w">
@@ -75,7 +75,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card6.jpg" alt="" />
+                            <img src="/assets/img/card6.jpg" alt="" />
                         </div>
                         <div className="cards_w">
                             <h3 className='font-bold text-2xl'>Haqqımızda​</h3>
@@ -85,7 +85,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="../public/assets/img/card7.jpg" alt="" />
+                            <img src="../assets/img/card7.jpg" alt="" />
                         </div>
 
                         <div className="cards_w">
@@ -95,7 +95,7 @@ function Main() {
                     </div>
                     <div className="card p-10 flex gap-4 fd-c">
                         <div className="cards_w">
-                            <img src="/public/assets/img/card8.jpg" alt="" />
+                            <img src="/assets/img/card8.jpg" alt="" />
                         </div>
 
                         <div className="cards_w">
