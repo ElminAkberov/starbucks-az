@@ -8,7 +8,7 @@ function Menu() {
 
   useEffect(() => {
     function fetchData() {
-      fetch('http://api.mirafgan.az/starbucks').then(res => res.json()).then(res => setData(res))
+      fetch('/data.json').then(res => res.json()).then(res => setData(res))
     }
     fetchData()
   }, [])

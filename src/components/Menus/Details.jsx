@@ -10,7 +10,7 @@ function Details() {
         getData()
     }, [])
     function getData() {
-        fetch("http://api.mirafgan.az/starbucks").then(res => res.json()).then(res => setData(res))
+        fetch("/data.json").then(res => res.json()).then(res => setData(res))
     }
     return (
         <div>
